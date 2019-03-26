@@ -8,7 +8,7 @@
 <form method="POST" action="{% url 'place_list' %}">
     {% csrf_token %}
     {{ new_place_form }}
-    <button type="submit">Add</button>
+    <button id='add_new_place' type="submit">Add</button>
 </form>
 
 
@@ -16,7 +16,7 @@
 
 <div class="wishlist-place">
 
-    <span class="place_name">{{ place.name }}</span>
+    <span class="place-name">{{ place.name }}</span>
 
     <form class="visited-form" method="POST" action="{% url 'place_was_visited' %}">
         {% csrf_token %}
