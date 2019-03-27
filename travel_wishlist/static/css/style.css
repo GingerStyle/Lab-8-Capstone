@@ -22,5 +22,17 @@ a.nav-link {
 
 #add-new-place {
     background-color: maroon;
-    border: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.delete {
+    background-color: crimson;
+    border-color: darkred;
+}
+
+#site-header {
+    background: url('../img/jtree.JPG') 0 0 repeat-x;
+    color: white;
+    padding: 40px 0 40px 0px;
+    text-align: center;
 }
